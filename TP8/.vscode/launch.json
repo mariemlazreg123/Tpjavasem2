@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ex7",
+            "request": "launch",
+            "mainClass": "ex7",
+            "projectName": "TP8_e93367ef"
+        },
+        {
+            "type": "java",
             "name": "correctionn",
             "request": "launch",
             "mainClass": "correctionn",
