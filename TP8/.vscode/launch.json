@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "correctionn",
+            "request": "launch",
+            "mainClass": "correctionn",
+            "projectName": "TP8_e93367ef"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Innerexemple1",
+            "request": "launch",
+            "mainClass": "Innerexemple1",
+            "projectName": "TP8_e93367ef"
+        },
+        {
+            "type": "java",
+            "name": "chex",
+            "request": "launch",
+            "mainClass": "chex",
+            "projectName": "TP8_e93367ef"
+        },
+        {
+            "type": "java",
+            "name": "ex2",
+            "request": "launch",
+            "mainClass": "ex2",
+            "projectName": "TP8_e93367ef"
+        }
+    ]
+}

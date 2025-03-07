@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class buffer {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String mot1, mot2;
+        int p;
+        System.out.println("donner une chaine de caracteres:");
+        StringBuffer Texte = new StringBuffer(sc.nextLine());
+        System.out.println("donner mot 1:");
+        mot1 = sc.nextLine();
+        System.out.println("donner mot 2:");
+        mot2 = sc.nextLine();
+        if (Texte.indexOf(mot1) == -1) {
+            System.out.println(mot1 + " n'existe pas dans le texte");
+        } else {
+            p = Texte.indexOf(mot1);
+            Texte.replace(p, p + mot1.length(), mot2);
+            System.out.println("Le nouveau texte est : " + Texte.toString());
+        }
+    }
+}
